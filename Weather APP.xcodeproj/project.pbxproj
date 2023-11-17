@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CD3EAEF2B06E5830097C731 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD3EAEE2B06E5830097C731 /* WeatherButton.swift */; };
 		9CFD4FA62B06DC9D00E290EA /* Weather_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD4FA52B06DC9D00E290EA /* Weather_APPApp.swift */; };
 		9CFD4FA82B06DC9D00E290EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD4FA72B06DC9D00E290EA /* ContentView.swift */; };
 		9CFD4FAA2B06DC9F00E290EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD4FA92B06DC9F00E290EA /* Assets.xcassets */; };
 		9CFD4FAE2B06DC9F00E290EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD4FAD2B06DC9F00E290EA /* Preview Assets.xcassets */; };
-		9CFD4FB52B06DCEF00E290EA /* WeatherButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD4FB42B06DCEF00E290EA /* WeatherButtom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CD3EAEE2B06E5830097C731 /* WeatherButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 		9CFD4FA22B06DC9D00E290EA /* Weather APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFD4FA52B06DC9D00E290EA /* Weather_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_APPApp.swift; sourceTree = "<group>"; };
 		9CFD4FA72B06DC9D00E290EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CFD4FA92B06DC9F00E290EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CFD4FAB2B06DC9F00E290EA /* Weather_APP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weather_APP.entitlements; sourceTree = "<group>"; };
 		9CFD4FAD2B06DC9F00E290EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9CFD4FB42B06DCEF00E290EA /* WeatherButtom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherButtom.swift; path = "../../SwiftUI-Weather/SwiftUI-Weather/SwiftUI-Weather/WeatherButtom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		9CFD4FA42B06DC9D00E290EA /* Weather APP */ = {
 			isa = PBXGroup;
 			children = (
-				9CFD4FB42B06DCEF00E290EA /* WeatherButtom.swift */,
 				9CFD4FA52B06DC9D00E290EA /* Weather_APPApp.swift */,
+				9CD3EAEE2B06E5830097C731 /* WeatherButton.swift */,
 				9CFD4FA72B06DC9D00E290EA /* ContentView.swift */,
 				9CFD4FA92B06DC9F00E290EA /* Assets.xcassets */,
 				9CFD4FAB2B06DC9F00E290EA /* Weather_APP.entitlements */,
@@ -143,8 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CFD4FA82B06DC9D00E290EA /* ContentView.swift in Sources */,
-				9CFD4FB52B06DCEF00E290EA /* WeatherButtom.swift in Sources */,
 				9CFD4FA62B06DC9D00E290EA /* Weather_APPApp.swift in Sources */,
+				9CD3EAEF2B06E5830097C731 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
